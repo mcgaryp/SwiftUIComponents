@@ -13,6 +13,9 @@
 		CE09CC7728AB4DAC0064270E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09CC6528AB4DAA0064270E /* ContentView.swift */; };
 		CE09CC7828AB4DAC0064270E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE09CC6628AB4DAC0064270E /* Assets.xcassets */; };
 		CE09CC7928AB4DAC0064270E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE09CC6628AB4DAC0064270E /* Assets.xcassets */; };
+		CE09CC8428AB4DE70064270E /* NavigationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE09CC8328AB4DE70064270E /* NavigationExample.swift */; };
+		CE1678D728AB72EA00289A3F /* NavigationEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1678D628AB72EA00289A3F /* NavigationEntry.swift */; };
+		CE1678D928AB840100289A3F /* TabBarExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1678D828AB840000289A3F /* TabBarExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		CE09CC6B28AB4DAC0064270E /* SwiftUIComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE09CC7128AB4DAC0064270E /* SwiftUIComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE09CC7328AB4DAC0064270E /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		CE09CC8328AB4DE70064270E /* NavigationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationExample.swift; sourceTree = "<group>"; };
+		CE1678D628AB72EA00289A3F /* NavigationEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationEntry.swift; sourceTree = "<group>"; };
+		CE1678D828AB840000289A3F /* TabBarExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +51,7 @@
 		CE09CC5E28AB4DAA0064270E = {
 			isa = PBXGroup;
 			children = (
+				CE09CC8228AB4DBC0064270E /* Components */,
 				CE09CC6328AB4DAA0064270E /* Shared */,
 				CE09CC7228AB4DAC0064270E /* macOS */,
 				CE09CC6C28AB4DAC0064270E /* Products */,
@@ -56,6 +63,7 @@
 			children = (
 				CE09CC6428AB4DAA0064270E /* SwiftUIComponentsApp.swift */,
 				CE09CC6528AB4DAA0064270E /* ContentView.swift */,
+				CE1678D628AB72EA00289A3F /* NavigationEntry.swift */,
 				CE09CC6628AB4DAC0064270E /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -76,6 +84,15 @@
 				CE09CC7328AB4DAC0064270E /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		CE09CC8228AB4DBC0064270E /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				CE09CC8328AB4DE70064270E /* NavigationExample.swift */,
+				CE1678D828AB840000289A3F /* TabBarExample.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +194,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE09CC7628AB4DAC0064270E /* ContentView.swift in Sources */,
+				CE1678D928AB840100289A3F /* TabBarExample.swift in Sources */,
+				CE09CC8428AB4DE70064270E /* NavigationExample.swift in Sources */,
+				CE1678D728AB72EA00289A3F /* NavigationEntry.swift in Sources */,
 				CE09CC7428AB4DAC0064270E /* SwiftUIComponentsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
